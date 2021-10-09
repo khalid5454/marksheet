@@ -1,0 +1,19 @@
+print("Enter English marks");
+eng= int(input ());
+print("Enter English marks");
+isl= int(input ());
+print("Enter English marks");
+urdu= int(input ());
+
+total= eng + isl + urdu ;
+per = total/300 * 100;
+
+
+if per >= 90 and  per <=100:
+    print("Result is : Grade A");
+elif per >= 80 and per < 90:
+    print("Result is : Grade B");
+elif per >= 70 and per < 80:
+    print("Result is : Grade C");
+else:
+    print ("Bad Luck Try next Year : Fail");
